@@ -67,4 +67,9 @@ int main(){
     apAve =& pinguino2;
     apAve->volar();
     apAve->nadar();
+
+    Aguila  * ag = dynamic_cast <Aguila *> (apAve);
+    cout << ag << endl;
+    Pinguino  * ping = dynamic_cast <Pinguino *> (apAve);
+    cout << ping << endl;
 }
