@@ -7,7 +7,7 @@ int main()
 
     Numero n3 = n1 * n2;
     ++n1;
-    n1.imprimir();
+    n1.imprimir();      
     n3.imprimir();
     cout<<n1;
     
